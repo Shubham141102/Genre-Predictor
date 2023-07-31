@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.outer_box
+{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #3ed8ff , #a8f5ff);
+}
+
+
+.register_page
+{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: #ffffffcc;
+    border-radius: 8px;
+    box-shadow: 0px 60px 80px 0px rgba(0,0,0,0.6),
+0px 45px 26px 0px rgba(0,0,0,0.14);
+    z-index: 2;
+    top: 30%;
+    padding: 40px;
+}
+
+.signup_header h1
+{
+    font-size: 2.1rem;
+    color: #212121;
+}
+
+.form p{
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.form{
+    margin: 20px 0px ;
+
+}
+.form p {
+    margin: 10px 0px;
+}
+
+.form p label
+{
+    display: block;
+    font-weight: bold;
+}
+.form p input
+{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+.submit{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.submit :hover{
+    background-color: #091015;
+}
+
+
+.circle
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to bottom , #ffffff , #ffffff33 );
+    position: absolute;
+}
+.circle1
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to bottom , #ffffff , #ffffff33 );
+}
+
